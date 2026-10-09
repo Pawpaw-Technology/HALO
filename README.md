@@ -137,6 +137,10 @@ HALO is a methodology for building recursively self-improving agent harnesses us
 
 ## HALO Loop
 
+Codex 的 ChatGPT 授权版本技能见 [`skills/codex/halo-loop/SKILL.md`](skills/codex/halo-loop/SKILL.md)。
+安装为 `halo-loop` 后，可用 `$halo-loop` 执行真实 trace 诊断、最小修改、行为评测与回退；
+本机运行位置和诊断模型由技能安装目录中的 `local.json` 配置，凭据仍由 HALO 独立保存。
+
 The core HALO loop is surprisingly simple:
 
 1. Collect execution traces from your agent harness. HALO uses OpenTelemetry-compatible tracing.

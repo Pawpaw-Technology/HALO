@@ -1,0 +1,4 @@
+interface:
+  display_name: "HALO 改进闭环"
+  short_description: "通过真实 trace、行为评测与成本比较，验证可回退的 Harness 改进"
+  default_prompt: "使用 $halo-loop 对当前项目执行一轮有证据、可评测、可回退的 Harness 改进闭环。"

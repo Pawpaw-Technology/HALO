@@ -107,9 +107,8 @@
 
 ## Quickstart
 
-The Python CLI/engine supports **Sign in with ChatGPT**. See
-[ChatGPT login and usage](docs/chatgpt-login.md) for setup, account selection,
-verification, and the scope of this adaptation. The desktop UI is unchanged.
+Pawpaw 分支已为 Python CLI/分析引擎接入 **ChatGPT 订阅授权**。安装、登录、账号切换和验证方法见
+[中文使用说明](docs/chatgpt-login.zh-CN.md)。本次适配覆盖 CLI/引擎，桌面 UI 保持现状。
 
 Install the HALO desktop app with:
 

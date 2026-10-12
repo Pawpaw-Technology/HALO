@@ -103,7 +103,7 @@ jobs:
           path: |
             pyproject.toml
             uv.lock
-          retention-days: 1
+          retention-days: 30
 
   build:
     name: Build
@@ -137,7 +137,7 @@ jobs:
         with:
           name: halo-engine-dist
           path: dist/*
-          retention-days: 14
+          retention-days: 30
 
   publish:
     name: Publish to PyPI
